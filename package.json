@@ -1,5 +1,3 @@
-cd C:\Users\franz\Login
-@'
 {
   "name": "qa-test",
   "private": true,
@@ -12,4 +10,3 @@ cd C:\Users\franz\Login
     "@playwright/test": "^1.53.2"
   }
 }
-'@ | Set-Content .\package.json
