@@ -1,1 +1,11 @@
-
+{
+  "name": "qa-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test:login": "playwright test login.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.2"
+  }
+}
