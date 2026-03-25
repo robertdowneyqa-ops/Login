@@ -1,3 +1,5 @@
+cd C:\Users\franz\Login
+@'
 {
   "name": "qa-test",
   "private": true,
@@ -10,3 +12,4 @@
     "@playwright/test": "^1.53.2"
   }
 }
+'@ | Set-Content .\package.json
